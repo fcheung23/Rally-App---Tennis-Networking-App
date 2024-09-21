@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Rally-Up-Tennis-Player-Search/static/css/main.25176175.css",
-    "main.js": "/Rally-Up-Tennis-Player-Search/static/js/main.48f4457e.js",
+    "main.js": "/Rally-Up-Tennis-Player-Search/static/js/main.9235c1bb.js",
     "static/media/Outfit-Regular.ttf": "/Rally-Up-Tennis-Player-Search/static/media/Outfit-Regular.40cc6b406021db657532.ttf",
     "index.html": "/Rally-Up-Tennis-Player-Search/index.html",
     "main.25176175.css.map": "/Rally-Up-Tennis-Player-Search/static/css/main.25176175.css.map",
-    "main.48f4457e.js.map": "/Rally-Up-Tennis-Player-Search/static/js/main.48f4457e.js.map"
+    "main.9235c1bb.js.map": "/Rally-Up-Tennis-Player-Search/static/js/main.9235c1bb.js.map"
   },
   "entrypoints": [
     "static/css/main.25176175.css",
-    "static/js/main.48f4457e.js"
+    "static/js/main.9235c1bb.js"
   ]
 }
