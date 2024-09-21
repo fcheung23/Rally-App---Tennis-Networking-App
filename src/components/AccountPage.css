@@ -1,0 +1,96 @@
+body {
+  font-family: 'Outfit';
+  background-color: #e6fe83;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.account-form {
+  font-family: 'Outfit';
+  max-width: 37.5rem;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: #faf5e8;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin: 3.125rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-form h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 1.25rem;
+}
+
+.account-form input {
+  font: inherit;
+  width: 80%;
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.account-form select {
+  font: inherit;
+  width: 85%;
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.choose-file {
+  padding-top: 2rem;
+  background-color: white;
+}
+
+.account-form input:focus,
+.account-form select:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.account-form button {
+  font: inherit;
+  width: 85%;
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: black;
+  color: #faf5e8;
+  margin-bottom: 1.875rem;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 0.625rem;
+}
+
+.profile-image-section {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.profile-image-section label {
+  display: block;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+}
+
+.profile-image {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.2rem solid black;
+}

@@ -1,0 +1,143 @@
+.player-search-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Outfit';
+  background-color: #faf5e8;
+}
+
+.sidebar {
+  width: 15.625rem;
+  background-color: #e6fe83;
+  padding: 1.25rem;
+  box-shadow: 0.125rem 0 0.3125rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('C:/tennis_app/frontend/public/img/banner.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture {
+  margin-bottom: 1.25rem;
+}
+
+.profile-picture img {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.2rem solid black;
+}
+
+.player-picture {
+  margin-bottom: 1.25rem;
+}
+
+.player-picture img {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.2rem solid #24419d;
+}
+
+.user-email {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border-radius: 1.875rem;
+  width: 10vw;
+  height: 3.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.account-button,
+.logout-button {
+  font: inherit;
+  width: 80%;
+  padding: 0.625rem;
+  margin: 0.3125rem 0;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.account-button {
+  background-color: black;
+  color: #faf5e8;
+}
+
+.logout-button {
+  background-color: black;
+  color: #faf5e8;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.25rem;
+  margin-left: 1.25rem;
+  background-color: #faf5e8;
+}
+
+h1 {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.search-filters {
+  margin-bottom: 1.25rem;
+}
+
+.search-filters label {
+  display: block;
+  margin-bottom: 0.625rem;
+}
+
+.search-filters .select-field,
+.search-filters .input-field {
+  font: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+}
+
+.player-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-item {
+  background-color: white;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.3125rem;
+  padding: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.player-details {
+  margin-left: 1.25rem;
+}
+
+.player-item p {
+  margin: 0.3125rem 0;
+  color: #333;
+}
+
+.social-icon {
+  font-size: 1rem;
+  margin-left: 0.625rem;
+  color: #555;
+  vertical-align: middle;
+}
+
+.social-icon:hover {
+  color: #000;
+}

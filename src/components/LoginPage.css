@@ -1,0 +1,90 @@
+body {
+  font-family: 'Outfit';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-logo {
+  width: 10vw;
+  height: auto;
+}
+
+.login-page {
+  font-family: 'Outfit';
+  background-color: #e6fe83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 25rem;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: #faf5e8;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.login-form input {
+  font-family: 'Outfit';
+  width: 93%;
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.login-form input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.login-form button {
+  font-family: 'Outfit';
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: black;
+  color: #faf5e8;
+}
+
+.login-form button:hover {
+  background-color: black;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 0.625rem;
+}
+
+.login-form .alternate-link {
+  text-align: center;
+  margin-top: 0.625rem;
+}
+
+.login-form .alternate-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-form .alternate-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+.sign-up-page {
+    font-family: 'Outfit';
+    background-color: #e6fe83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sign-up-logo {
+    width: 10vw;
+    height: auto;
+}
+
+.sign-up-form {
+    font: inherit;
+    background-color: #faf5e8;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-form h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.sign-up-form input {
+    font: inherit;
+    width: 93%;
+    padding: 0.75rem;
+    margin: 0.625rem 0;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.sign-up-form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNiAxMSIgdmlld0JveD0iMCAwIDE2IDExIjIHZpZXdCb3g9IjAgMCAxNiAxMSIgdmlld0JveD0iMCAwIDE2IDExIj48cGF0aCBkPSJNMTAgMTFMMjAgMCAwIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMSIvPjxwYXRoIGQ9Ik0xMCA1SDEwVjVDOS4yNTIgOS4yNTIgOS41IDEwIDkuNTIgOC44NTIgMTEgMTAgMTEgMTB6Ii8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-position: right 0.625rem center;
+    background-size: 1rem;
+}
+
+.skill-picker {
+    font: inherit;
+    color: #757575;
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.625rem 0;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.sign-up-form button {
+    font: inherit;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #faf5e8;
+    background-color: black;
+    margin-top: 0.625rem;
+}
+
+.sign-up-form button:hover {
+    background-color: black;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.alternate-link {
+    font: inherit;
+    margin-top: 0.625rem;
+    text-align: center;
+}
+
+.alternate-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alternate-link a:hover {
+    text-decoration: underline;
+}
